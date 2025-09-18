@@ -2,6 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
+import streamlit
 
 # 1. Função para carregar e preparar os dados
 # Essa função é o "coração" da automação, pois ela sabe como encontrar os dados relevantes no seu arquivo.
@@ -83,4 +84,5 @@ if __name__ == "__main__":
     if df_pessoas is not None:
         criar_grafico_seaborn(df_pessoas, 'Total de Acessos de Pessoas por Categoria', 'acessos_pessoas.png')
     if df_veiculos is not None:
+
         criar_grafico_seaborn(df_veiculos, 'Total de Acessos de Veículos por Categoria', 'acessos_veiculos.png')
