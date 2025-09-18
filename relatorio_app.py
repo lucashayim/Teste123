@@ -86,3 +86,10 @@ if __name__ == "__main__":
     if df_veiculos is not None:
 
         criar_grafico_seaborn(df_veiculos, 'Total de Acessos de Veículos por Categoria', 'acessos_veiculos.png')
+
+requirement.txt
+streamlit
+pandas
+matplotlib
+seaborn
+
